@@ -1,0 +1,23 @@
+<div ng-app="usersApp">
+	<div ng-controller="users">
+		<h1>Register</h1>
+
+		<div>
+			Email: <input type="text" name="email" ng-model="email">
+		</div>
+
+		<div>
+			Username: <input type="text" name="username" ng-model="username">
+		</div>
+
+		<div>
+			Password: <input type="password" name="password" ng-model="password">
+		</div>
+
+		<div>
+			<button type="button" ng-click="register_users()">
+				Register
+			</button>
+		</div>
+	</div>
+</div>

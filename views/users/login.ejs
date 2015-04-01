@@ -1,0 +1,19 @@
+<div ng-app="usersApp">
+	<div ng-controller="users">
+		<h1>Login</h1>
+
+		<div>
+			Username: <input type="text" name="username" ng-model="username">
+		</div>
+
+		<div>
+			Password: <input type="password" name="password" ng-model="password">
+		</div>
+
+		<div>
+			<button type="button" ng-click="authenticate()">
+				Login
+			</button>
+		</div>
+	</div>
+</div>
